@@ -9,7 +9,6 @@ if($_FILES){
         echo "<img src='{$upload}' width='100%'>";
     }
     catch(Exception $e){
-        echo "<p>(!) {$e->getMessage()}</p>";
-        
+        echo "<p>(!) {$e->getMessage()}</p>";        
     }
 }
