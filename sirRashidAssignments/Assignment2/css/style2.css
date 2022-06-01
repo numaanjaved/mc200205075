@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+}
+.container {
+    margin : 0 auto;
+    width: 980px;
+    position: relative;
+}
+.container .main {
+    height: 450px;
+    position: relative;
+    background-image: url("../imgs/hongkong1081704.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .showcase {
+    height: 350px;
+    background-color: white;
+}
+.container .facts {
+    height: 218px;
+    background-color: #4a2d7f;
+}
+.container .main .menubar {
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    z-index: 1;
+}
+.container .main .title {
+    width: 30%;
+}
+.container .main .title div{
+    float: left;
+    
+}
+.container .main .title div.name {
+    padding : 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color : white;
+}
+.container .main .menu {
+    width: 60%;
+    float: right;
+    color: white;
+}
+.container .main .menu ul{
+    clear:both;
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 0;
+    
+}
+.container .main .menu ul li {
+    float:left;
+    height: 60%;
+    margin-top: 0;
+    margin-bottom: -10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left : 10px;
+    padding-right : 10px;
+}
+.container .main .menu ul li:hover {
+    background-color: blue;
+    color: white;
+}
+.container .main .layer {
+    height: 100%;
+    position: relative;
+    background: linear-gradient(90deg, red, blue);
+    opacity: 0.4;
+}
+
+.container .main .show {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    
+}
+.container .main .show div {
+    float:left;
+}
+.container .main .show .data{
+    width: 50%;
+    height: 88%;
+    transform: translate(28%, -75%);
+    position: absolute;
+}
+.container .main .show .data div {
+    margin: 5px;
+}
+.container .main .show .data .header {
+    /* font-family:cursive; */
+
+    font-size : 18px;
+    font-style: oblique;
+    text-align: left;
+}
+.container .main .show .data .tittle {
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:justify;
+    font-size: 28px;
+} 
+.container .main .show .data .detail {
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 12px;
+}
+.container .main .show .data button{
+    color: white;
+    margin : 10px;
+    padding: 10px 20px;
+    
+    border: none;
+    border-radius: 20px;
+}
+.container .main .show .data .button1 {
+    
+    margin-left: 20px;
+    background-color: #F22369;
+}
+.container .main .show .data .button2 {
+    
+    background-color: #67328e;
+    
+}
+.container .main .show .picture {
+    
+    width: 50%;
+    height: 88%;
+    transform: translate(90%, -95%);
+    position: absolute;
+    /* background-image: url("../imgs/portrait-of-a-man-displaying-a-blank-tablet-screen-on-white-background-2E03372-removebg-preview.png"); */
+    /* z-index: 10; */
+}
+.container .showcase .layer {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    background-image: url("../imgs/istockphoto-1127492021-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.container .showcase .picture {
+    position: absolute;
+    transform: translate(110%,20%) rotate(20deg);
+
+    
+    margin: auto;
+    width: 50%;
+}
+.container .showcase img {
+    margin: auto;
+    height: 250px;
+    margin: 25px;
+}
+.container .showcase .data{
+    width: 60%;
+    position: absolute;
+    margin: 10px;
+    transform: translate(25%, 10%);
+}
+.container .showcase .data div {
+    margin:10 0;
+}
+.container .showcase .data .header {
+    font-family: cursive;
+    font-style: oblique;
+}
+.container .showcase .data .title2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.container .showcase .data .detail {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    font-weight: bold;
+    font-size: 12px;
+}
+.container .facts div {
+    position: relative;
+    float:left;
+    font-weight: bold;
+    
+}
+.clear {
+    clear:both;
+}
+.container .facts .left, .container .facts .right {
+    height: 100%;
+    width: 35%;
+    text-align: center;
+    
+    
+}
+.container .facts .text {
+    padding-top: 25%; 
+    float: none;
+    display: inline-block;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color : white;
+   
+}
+.container .facts .middle .text {
+    padding-top : 30%;
+}
+.container .facts .middle {
+    background-color: #41286A;
+    width: 30%;
+    height: 100%;
+    text-align:center;
+}
+.container .showcase .data .selection button {
+    border:none;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.container .showcase .data .selection button.inactive {
+    border:none;
+    background-color: transparent;
+}
+.container .showcase .data .selection button.active {
+    border:none;
+    background-color: #F52267;
+    color: white;
+}
+.container .showcase .data .readme button {
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F52267;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+}

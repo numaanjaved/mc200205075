@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ext-gd": "*",
+        "coffeecode/uploader": "^2.0"
+    }
+}

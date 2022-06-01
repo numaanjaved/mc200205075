@@ -1,0 +1,234 @@
+body {
+    background-color: rgb(240, 242, 245); 
+    font-family: Arial; 
+    overflow-x: hidden;
+}
+.obesive-layer {
+    position: absolute; 
+    inset: 0px; 
+    background-color: black; 
+    opacity: 0.3;
+}
+.menu {
+    display: none;
+    width:"150px";
+    height:"200px";
+    background-color:'teal';
+    position:"absolute";
+    top:"-14px";
+    right:"0";
+}
+.d-none {
+    display:none !important;
+}
+.d-block {
+    display: block !important;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.input-field-name {
+    margin: "5px";
+}
+.main {
+    width: 800px; 
+    position: relative; 
+    margin: 200px auto 0px;
+}
+.actions {
+    position: absolute; 
+    top: -50px; 
+    right: 0px; 
+    background-color: rgb(94, 186, 125); 
+    color: white; 
+    border: none; 
+    border: none;
+    border-radius: 3px; 
+    padding: 10px 20px;
+}
+.data {
+    height: auto; 
+    width: 800px; 
+    margin: 0px auto; 
+    background-color: white; 
+    border-radius: 20px;
+}
+.data-container {
+    height: 400px; 
+    width: 850px; 
+    overflow-y: auto;
+}
+.heading-column {
+    width: 100px; 
+    height: 100px; 
+    border: inherit;
+}
+.row-body {
+    height: 100px; 
+    border: 1px solid black; 
+    background-color: white; 
+    text-align: center;
+}
+.column-body {
+    border: 1px solid black; 
+    border-radius: 20px;
+}
+.menu {
+    display: block; 
+    height: auto; 
+    width: 150px; 
+    background-color: teal; 
+    position: absolute; 
+    top: -14px; 
+    right: 0px;
+}
+.subMenu {
+    width: 100%; 
+    background-color: grey; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0px;
+}
+
+.input-container {
+    height: 550px; 
+    width: 490px; 
+    overflow: hidden auto; 
+    position: absolute; 
+    inset: 50% 0px 0px 50%; 
+    transform: translateX(-50%) translateY(-50%);
+}
+.input {
+    height: auto; 
+    width: 460px; 
+    background-color: white; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px;
+}
+.input-header{
+    height: 50px; 
+    width: 100%; 
+    float: left; 
+    font-family: Arial; 
+    font-size: 40px;
+}
+.input-close{
+    float: right;
+}
+.input-main {
+    width: 100%; 
+    height: calc(100% - 130px);
+}
+.signup-footer {
+    position: relative; 
+    height: 50px; 
+    width: 100%;
+}
+.footer-buttons {
+    width: 30%; 
+    background-color: rgb(94, 186, 125); 
+    color: white; 
+    position: absolute; 
+    border: none; 
+    border-radius: 20px;
+}
+.input-name {
+    margin: 10px; 
+    width: calc(50% - 35px); 
+    padding: 5px; 
+    float: left; 
+}
+.input-date {
+    margin: 10px; 
+    width: calc(50% - 85px); 
+    padding: 2px 5px;
+}
+.input-third-row {
+    margin-left: 10px;
+}
+.input-fourth-row {
+    margin-right: 20px;
+}
+.input-program {
+    margin: 10px; 
+    width: calc(50% - 20px); 
+    padding: 5px;
+}
+.input-textarea {
+    margin: 10px; 
+    padding: 5px;
+}
+.input-image {
+    margin: 10px; width: calc(85% - 30px); padding: 5px;
+}
+.file-image {
+    height: 300px; 
+    margin: 10px; 
+    width: calc(80% - 30px); 
+    padding: 5px;
+}
+.img-table {
+    height: 60%; 
+    width: 80%;
+}
+.action-inside-container { 
+    border: 1px solid black; 
+    background-color: grey;
+}
+.menu-inside {
+    width: 160px; 
+    height: auto; 
+    position: absolute; 
+    right: 36px; 
+    background-color: transparent;
+}
+.menu-button-inside {
+    padding: 10px 0px; 
+    height: 20px; 
+    width: 100%; 
+    color: teal; 
+    background-color: white; 
+    border: 1px solid blue; 
+    border-radius: 10px; 
+    text-align: center;
+}
+.view-first-row {
+    height: 100px;
+}
+.view-second-row {
+    height: 100px;
+}
+.view-third-row {
+    height: 150px;
+}
+.image-container {
+    height: 150px; 
+    width: 150px; 
+    float: left;
+}
+.name-container {
+    height: 150px; 
+    width: calc(100% - 165px); 
+    float: right;
+}
+.name-container div {
+    height: 50px; 
+    width: 100%;
+}
+.view-second-row div {
+    height: 100%; 
+    width: 50%; 
+}
+.view-third-row div {
+    height: 150px;
+}
+.view-aboutMe-heading {
+    width: 100px;
+}
+.view-aboutMe-container {
+    width: calc(100% - 115px);
+}

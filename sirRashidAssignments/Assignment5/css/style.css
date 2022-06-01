@@ -1,0 +1,44 @@
+body {
+    margin: 0 !important;
+    background-color: #EEF0F3 !important;
+}
+.main {
+    margin: 0 auto !important;
+    background-color: white;
+    margin-top: 5vh !important;
+    height : auto;
+    width : 980px !important;
+}
+#driver-container-inside, #truck-container-inside, #dt-selection-container-inside {
+    height : 250px;
+    overflow-y: scroll;
+}
+#containor-container-inside, #containor-selection-container-inside {
+    height: 250px;
+    overflow-y: scroll;
+}
+#containor-selection-container-inside .truck {
+    width: 140px;
+}
+.truck, img {
+    width: 75px;
+}
+.driver {
+    background-color: black;
+    color : white;
+    height: 45px;
+    font-size: 8px;
+    width: 22px;
+    z-index: 2;
+}
+.driver img {
+    width: 100%;
+    height: 22px;
+}
+.containor {
+    height: auto;
+    width: 100px;
+}
+.containor img {
+    width: 100%;
+}
