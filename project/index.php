@@ -18,8 +18,8 @@
             $presentInDatabase = $mysql->query("SELECT * FROM users WHERE username = '".$username."' AND password = '".$password."'");
             if($presentInDatabase->num_rows != 0){
                 
-                    $x = $presentInDatabase->fetch_assoc();
-                    $roles = $mysql->query("SELECT * FROM user_roles WHERE user_id = '".$x['id']."'");
+                $x = $presentInDatabase->fetch_assoc();
+                $roles = $mysql->query("SELECT * FROM user_roles WHERE user_id = '".$x['id']."'");
                 $role = $roles->fetch_assoc();
                 if($role['role_id'] == 1){
                     echo "Welcome to the Admin Dashboard";
